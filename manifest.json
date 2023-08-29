@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Scratch Catify",
+    "version": "1.4",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "32": "icons/icon-32.png",
+        "48": "icons/icon-48.png",
+        "64": "icons/icon-64.png",
+        "96": "icons/icon-96.png"
+    },
+    "description": "Modify YouTube thumbnails to include MrBeast",
+    "permissions": [
+        "https://scratch.mit.edu/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://scratch.mit.edu/*"],
+        "js": ["mrbeastify.js"],
+        "run_at": "document_idle"
+    }],
+    "web_accessible_resources": [
+        "images/*.png",
+        "images/*.json"
+    ]
+}

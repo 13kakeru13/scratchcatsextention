@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Scratch Catify",
-    "version": "1.0",
+    "version": "1.2",
     "icons": {
         "16": "icons/icon-16.png",
         "32": "icons/icon-32.png",

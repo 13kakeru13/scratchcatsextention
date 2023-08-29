@@ -35,8 +35,11 @@ function applyOverlayToThumbnails() {
 
   // Apply overlay to each thumbnail
   thumbnailElements.forEach((thumbnailElement) => {
-    var ncobj=document.querySelectorAll(".project a:not([class='thumbnail-image catten'])")
+    var ncobj;
+    ncobj=document.querySelectorAll(".project a:not([class='thumbnail-image catten'])");
     for(let cci=0;cci<ncobj.length;cci++){ncobj[cci].classList.add("catten");}
+    ncobj=document.querySelectorAll(".slick-track");
+    for(let cci=0;cci<ncobj.length;cci++){ncobj[cci].style.height="122px";}
     // Apply overlay and add to processed thumbnails
     // Get overlay image URL from your directory
     const overlayImageIndex = getRandomImageFromDirectory();

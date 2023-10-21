@@ -5,4 +5,5 @@
 Youtube MrbeastifyのScratchCat版です。
 ### [allshibatarie](https://github.com/13kakeru13/scratchcatsextention/tree/main/allshibatarie)
 プロジェクトのサムネイルなどを全部柴田理恵にするゴミです。邪魔。
-##使ってみろ！！！！！！！！！！！！！！！１
+## 使ってみろ！！！！！！！！！！！！！！！１
+これらの拡張機能を使用して、快適じゃないScratchライフをお楽しみください！

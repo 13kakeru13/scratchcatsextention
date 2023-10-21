@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "傾向柴田理恵化",
+    "version": "1.2",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "64": "icons/icon-64.png",
+        "120": "icons/icon-120.png",
+        "240": "icons/icon-240.png"
+    },
+    "description": "Scratchの傾向が柴田理恵になるよｗ",
+    "permissions": [
+        "https://scratch.mit.edu/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://scratch.mit.edu/*"],
+        "js": ["aho.js"],
+        "run_at": "document_idle"
+    }]
+}
